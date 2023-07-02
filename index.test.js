@@ -1,4 +1,4 @@
-const { helloWorld, tellDate } = require("./index");
+const { helloWorld, tellDate, add } = require("./index");
 describe("tell date", () => {
   test("greets you", () => {
     console.log = jest.fn();
@@ -27,3 +27,10 @@ describe("tell date", () => {
     expect(console.log).toHaveBeenCalledWith("It's Tuesday, innit!");
   });
 });
+
+describe("add function", () => {
+    test("successfully adds two numbers", () => {
+        const sum = add(2, 8);
+        expect(sum).toBe(10); 
+    });
+})

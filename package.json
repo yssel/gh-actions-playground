@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-playground",
+  "version": "1.0.0",
+  "description": "A playground for learning github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blessy Salvania",
+  "license": "ISC"
+}

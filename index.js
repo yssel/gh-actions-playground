@@ -35,7 +35,10 @@ const tellDate = () => {
     console.log(`It's ${day}!`);
 }
 
+const add = (a, b) => a + b;
+
 module.exports = {
     helloWorld,
     tellDate,
+    add,
 }
